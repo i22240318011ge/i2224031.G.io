@@ -1,5 +1,4 @@
 $('.slider').slick({
-    heght 700px;
     autoplay: true,//自動的に動き出すか。初期値はfalse。
     autoplaySpeed: 3000,//次のスライドに切り替わる待ち時間
     speed:1000,//スライドの動きのスピード。初期値は300。
