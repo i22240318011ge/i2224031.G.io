@@ -56,14 +56,14 @@ gsap.to(itemInner, {
 //画像の設定
 
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
-		if (windowwidth > 768){
+		if (windowwidth > 800){
 			var responsiveImage = [//PC用の画像
 				{ src: './img/img_01.jpg'},
 				{ src: './img/img_02.jpg'},
 				{ src: './img/img_03.jpg'}
 			];
 		} else {
-			var responsiveImage = [//タブレットサイズ（768px）以下用の画像
+			var responsiveImage = [//タブレットサイズ（800px）以下用の画像
 				{ src: './img/img_sp_01.jpg' },
 				{ src: './img/img_sp_02.jpg' },
 				{ src: './img/img_sp_03.jpg' }
