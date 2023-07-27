@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="stole.css">
-  <script src="jav.js"></script>
+</head>
 </head>
 <body>
   <div class="wrap">
@@ -30,9 +30,9 @@
     </div>
 
     <!-- Middle Section -->
-    <div class="middle" style="height: 550px; background-color: #b9fff2;">
+    <div class="middle" style="height: 350px; background-color: #fdffed; overflow: auto;">
       <!-- Middle Content: Horizontal Scroll and Popups -->
-      <h2>The Work</h2>
+      <h2>制作物</h2>
       <div class="scroll-container" id="scroll-container">
         <div class="item" onclick="openPopup('01.png', 'この作品は大学に入学してから初めての演習で制作したもの「ゴミ削減」をテーマにした作品', '01/was.mp4')"> <!-- Clicking on this image will open a popup with video and description -->
           <img src="01/01.png" alt="１作目">
@@ -49,8 +49,8 @@
         <div class="item" onclick="openPopup('05.jpeg', 'Untyで制作した作品、時間が経てば理解ができる作品にしようと考えていた', '05/05.MOV')"> <!-- Clicking on this image will open a popup with video and description -->
           <img src="05/05.jpeg" alt="5作目">
         </div>
-        <div class="item" onclick="openPopup('06.jpg', '海沿いのホテルの会員証をイメージして制作した作品、バーコードをクリックすると逆向きになるのがもう少し分かりやすくすればいいのが反省点', '', 'https://www.figma.com/proto/TFDgroPXaqv5pa1SaXDryE/vol.08-suzuki-genta?node-id=0-3&starting-point-node-id=0%3A3&mode=design&t=XM2wKEmHeRhZTD5o-1')"> <!-- Clicking on this image will open a popup with image and link -->
-          <img src="06.jpg" alt="6作目">
+        <div class="item" onclick="openPopup('06/06.jpg', '海沿いのホテルの会員証をイメージして制作した作品、バーコードをクリックすると逆向きになるのがもう少し分かりやすくすればいいのが反省点', '', 'https://www.figma.com/proto/TFDgroPXaqv5pa1SaXDryE/vol.08-suzuki-genta?node-id=0-3&starting-point-node-id=0%3A3&mode=design&t=XM2wKEmHeRhZTD5o-1')"> <!-- Clicking on this image will open a popup with image and link -->
+          <img src="06/06.jpg" alt="6作目">
         </div>
         <!-- Add more items here -->
       </div>
@@ -64,7 +64,7 @@
   </div>
 
   <!-- Popup Window -->
-  <div id="popup" class="popup" heght -350px;>
+  <div id="popup" class="popup">
     <div class="popup-content">
       <span class="close" onclick="closePopup()">&times;</span>
       <div id="popup-media"></div>
